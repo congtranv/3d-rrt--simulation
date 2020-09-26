@@ -24,18 +24,22 @@
 
 ## Usage
 *terminal 1*
+- `cd ~/3d-rrt/path_planning/path_planning`
 - `source devel/setup.bash`
 - `roscore`
 
 *terminal 2*
+- `cd ~/3d-rrt/path_planning/path_planning`
 - `source devel/setup.bash`
 - `rosrun rviz rviz`  
 - *in rviz window* enter "path_planner" to Fixed Frame; select Add --> Marker, douple click to expand Marker, then enter 'path_planner_rrt' to Marker Topic
 
 *terminal 3*
+- `cd ~/3d-rrt/path_planning/path_planning`
 - `source devel/setup.bash`
 - `rosrun path_planning env_node`
 
 *terminal 4*
+- `cd ~/3d-rrt/path_planning/path_planning`
 - `source devel/setup.bash`
 - `rosrun path_planning rrt_node`
